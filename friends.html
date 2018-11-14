@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <title>Friends</title>
+</head>
+<body>
+  <header>
+    <!-- header top : 비행모드, 와이파이, 시간, 블루투스, 배터리 -->
+    <div class="header__top">
+      <div class="header__column">
+        <!-- plane icon -->
+        <i class="fas fa-plane"></i>
+        <!-- wipi icon -->
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="header__column">
+        <span class="header__time">18:38</span>
+      </div>
+      <div class="header__column">
+        <!-- moon icon -->
+        <i class="far fa-moon"></i>
+        <!-- blue icon -->
+        <i class="fab fa-bluetooth-b"></i>
+        <span class="header__battery">66%</span>
+        <!-- battery icon -->
+        <i class="fas fa-battery-three-quarters"></i>
+      </div>
+    </div>
+    <div class="header_bottom">
+      <div class="header__column">
+        <span class="header__text">Manager</span>
+      </div>
+      <div class="header__column">
+        <span class="header__text">Freiends</span>
+        <span class="header__number">1</span>
+      </div>
+      <div class="header__column">
+        <i class="fas fa-cog"></i>
+      </div>
+    </div>
+  </header>
+  <main class="friends">
+    <div class="search_bar">
+      <i class="fas fa-search"></i>
+      <input type="text" placeholder="Find friends, chats, Plus Friends">
+    </div>
+    <section class="friends__section">
+      <header>
+        <h6 class="friends__section_title">My Profile</h6>
+      </header>
+      <div class="friends__section_rows">
+        <div class="friends__section_row">
+          <img src="" alt="">
+          <sapn class="friends__section_name">Nicolas</sapn>
+        </div>
+        <div class="friends__section_row">
+          <img src="" alt="">
+          <sapn class="friends__section_name">Friends' Names Display</sapn>
+        </div>
+      </div>
+    </section>
+    <section class="friends__section">
+      <header>
+        <h6 class="friends__section_title">Friends</h6>
+      </header>
+      <div class="friends__section_rows">
+        <div class="friends__section_row">
+          <div class="friends__section_column">
+            <img src="" alt="">
+            <sapn class="friends__section_name">Nicolas</sapn>
+          </div>
+          <span class="friends__section_tagline">Life is short. So live your life.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <nav class="tab__bar">
+    <a href="friends.html" class="tab__bar_tab tab__bar_tab_Select">
+      <i class="fas fa-user"><span class="tab__bar_title">Friends</span></i>
+    </a>
+    <a href="chats.html" class="tab__bar_tab">
+      <i class="fas fa-comment"><span class="tab__bar_title">Chats</span></i>
+    </a>
+    <a href="find.html" class="tab__bar_tab">
+      <i class="fas fa-search"><span class="tab__bar_title">Find</span></i>
+    </a>
+    <a href="more.html" class="tab__bar_tab">
+      <i class="fas fa-ellipsis-h"><span class="tab__bar_title">More</span></i>
+    </a>
+  </nav>
+</body>
+</html>
