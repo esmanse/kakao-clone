@@ -9,3 +9,7 @@
   more
   chat
   profile
+  index
+
+웹아이콘 : https://fontawesome.com/icons?d=gallery
+초기화 : https://raw.githubusercontent.com/nomadcoders/kakao-clone/master/css/reset.css
