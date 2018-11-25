@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="top-header">
+  <header class="top-header top-header--transprent">
     <!-- header top : 비행모드, 와이파이, 시간, 블루투스, 배터리 -->
     <div class="header__top">
       <div class="header__column">
@@ -31,7 +31,7 @@
         <i class="fas fa-battery-three-quarters"></i>
       </div>
     </div>
-    <div class="header_bottom">
+    <div class="header__bottom">
       <div class="header__column">
         <a href="friends.html">
           <i class="fas fa-times"></i>
@@ -47,22 +47,26 @@
   </header>
   <main class="profile">
     <header class="profile__header">
-      <img src "images/avatar.jpg">
-      <h3 class="profile__header-title">Nicolas</h3>
-    </header>
-    <input type="text" placeholder="itnicolasme@gmail.com">
-    <div class="profile__actions">
-      <div class="profile__action">
-        <span class="profile__action-circle">
-          <i class="fas fa-comment"></i>
-        </span>
-        <sapn class="profile__action-title">My Chatroom</sapn>
+      <div class="profile__header-container">
+        <img src ="images/avatar.jpg" alt="">
+        <h3 class="profile__header-title">Nicolas</h3>
       </div>
-      <div class="profile__action">
-        <span class="profile__action-circle">
-          <i class="fas fa-pencil-alt"></i>
-        </span>
-        <sapn class="profile__action-title">Edit Profile</sapn>
+    </header>
+    <div class="profile__container">
+      <input type="text" placeholder="itnicolasme@gmail.com">
+      <div class="profile__actions">
+        <div class="profile__action">
+          <span class="profile__action-circle">
+            <i class="fas fa-comment"></i>
+          </span>
+          <sapn class="profile__action-title">My Chatroom</sapn>
+        </div>
+        <div class="profile__action">
+          <span class="profile__action-circle">
+            <i class="fas fa-pencil-alt"></i>
+          </span>
+          <sapn class="profile__action-title">Edit Profile</sapn>
+        </div>
       </div>
     </div>
   </main>
