@@ -8,8 +8,8 @@
   <title>Chat</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  <header class="top-header">
+<body class="body-chat">
+  <header class="top-header chat-header">
     <!-- header top : 비행모드, 와이파이, 시간, 블루투스, 배터리 -->
     <div class="header__top">
       <div class="header__column">
@@ -30,48 +30,49 @@
         <!-- battery icon -->
         <i class="fas fa-battery-three-quarters"></i>
       </div>
-      <div class="header_bottom">
-        <div class="header__column">
-          <a href="chats.html">
-            <i class="fas fa-chevron-left"></i>
-          </a>
-        </div>
-        <div class="header__column">
-          <span class="header__text">Lynn</span>
-        </div>
-        <div class="header__column">
-          <i class="fas fa-search"></i>
-          <i class="fas fa-bars"></i>
-        </div>
-      </div>
     </div>
-    <main class="chat">
-      <div class="date-divider">
-        <span class="date-divider__text">Wednesday, August 2, 2017</span>
+    <div class="header__bottom">
+      <div class="header__column">
+        <a href="chats.html">
+          <i class="fas fa-chevron-left"></i>
+        </a>
       </div>
-      <div class="chat__message chat__message-from-me">
-        <span class="char__message-time">17:56</span>
-        <span class="char__message_body">Hello! This is a test message.</span>
+      <div class="header__column">
+        <span class="header__text">Lynn</span>
       </div>
-      <div class="chat__message chat__message-to-me">
-        <img src="images/avatar.jpg" class="chat__messabe_avatar"></img>
-        <div class="chat__message-center">
-          <h3 class="chat__message_username"> LYNN</h3>
-          <span class="chat__message_body">Hello! This is a test message.</span>
-        </div>
-        <span class="chat__message-time">18:06</span>
-      </div>
-    </main>
-    <div class="chat__message">
-      <i class="fas fa-plus"></i>
-      <div class="chat__message-input">
-        <input type="text">
-        <i class="far fa-smile"></i>
-        <span class="record-message">
-          <i class="fas fa-microphone"></i>
-        </span>
+      <div class="header__column">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bars"></i>
       </div>
     </div>
   </header>
+  <main class="chat">
+    <div class="date-divider">
+      <span class="date-divider__text">Wednesday, August 2, 2017</span>
+    </div>
+    <div class="chat__message chat__message-from-me">
+      <span class="char__message-time">17:56</span>
+      <span class="char__message_body">Hello! This is a test message.</span>
+    </div>
+    <div class="chat__message chat__message-to-me">
+      <img src="images/avatar.jpg" class="chat__messabe_avatar"></img>
+      <div class="chat__message-center">
+        <h3 class="chat__message_username"> LYNN</h3>
+        <span class="char__message_body">And this is an answer</span>
+      </div>
+      <span class="char__message-time">18:06</span>
+    </div>
+  </main>
+  <div class="type__message">
+    <i class="fas fa-plus"></i>
+    <div class="type__message-input">
+      <input type="text">
+      <i class="far fa-smile fa-lg"></i>
+      <span class="record-message">
+        <i class="fas fa-microphone fa-lg"></i>
+      </span>
+    </div>
+  </div>
+
 </body>
 </html>
